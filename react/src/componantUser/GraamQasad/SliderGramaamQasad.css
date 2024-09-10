@@ -1,0 +1,12 @@
+.slide-image {
+    border-radius:50% ;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+    font-size: 30px;
+  }
+
+
+  

@@ -1,0 +1,79 @@
+.head p {
+  background-color: #0d3a5a;
+  padding: 10px 20px 15px 0;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+}
+.filterAndDisplay {
+  width: 96%;
+  margin: auto;
+
+}
+.filter {
+  margin-top: 30px;
+}
+.filter span {
+  padding: 5px 0;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  background-color: #e2dede;
+  color: black;
+  margin-left: 1px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.filter .active {
+  background-color: #A5C3EB;
+}
+/* //////////////////////// */
+.AllHistory{
+    width: 96%;
+    margin: auto;
+    margin-top: 20px;
+}
+.oneNotific{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 13px;
+    align-items: center;
+}
+.oneNotific p{
+    margin-bottom: -5px;
+}
+.display{
+    border: none;
+    outline: none;
+    background-color: #3B9058;
+    color: white;
+    font-size: 12px;
+   height: fit-content;
+    padding: 3px 5px;
+}
+.display1{
+    border: none;
+    outline: none;
+    background-color: rgb(222, 55, 55);
+    color: white;
+    font-size: 12px;
+   height: fit-content;
+    padding: 3px 5px;
+}
+/* /////////////////////// */
+.AllHistory{
+  overflow-y: auto;
+  max-height: 400px;
+}
+  .AllHistory::-webkit-scrollbar {
+    width: 10px;
+  }
+  .AllHistory::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .AllHistory::-webkit-scrollbar-thumb {
+    background: #2d2dc3;
+  }

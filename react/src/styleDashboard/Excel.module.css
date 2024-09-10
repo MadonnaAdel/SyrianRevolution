@@ -1,0 +1,88 @@
+.SuperVisor {
+  width: 100%;
+  height: 100%;
+}
+.SuperVisor input{
+  padding: 2px;
+}
+.head p {
+  background-color: #0d3a5a;
+  padding: 10px 20px 15px 0;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+}
+.search {
+  margin-top: 40px;
+  width: 40%;
+  margin-right: 20px;
+  position: relative;
+}
+.allUser{
+  height: 250px;
+  margin-top: 50px;
+  overflow: auto;
+}
+  .allUser::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .allUser::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .allUser::-webkit-scrollbar-thumb {
+    background: #3035A1;
+  }
+@media(max-width:900px){
+  .search{
+    width: 90%;
+  }
+}
+.search input {
+  padding-right: 50px;
+}
+
+
+.add {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+}
+
+
+
+
+.inputSearch{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 80%;
+ transform: translateY(35px);
+  margin: auto;
+}
+.inputSearch div{
+  width: 30%;
+}
+.inputSearch input::placeholder{
+  font-size: 10px;
+}
+.inputSearch label{
+  font-size: 10px;
+}
+@media(max-width:800px){
+  .inputSearch{
+    flex-direction: column;
+  }
+  .inputSearch div{
+    width: 90%;
+  }
+}
+.table{
+ min-width:1500px ;
+}
+.table th ,td{
+  width: fit-content;
+}

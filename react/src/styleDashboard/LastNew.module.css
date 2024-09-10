@@ -1,0 +1,54 @@
+.inp1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45%;
+}
+.informLastNews {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.btnbottom {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.inp2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.inp2 textarea {
+  height: 150px;
+  border: none;
+}
+.LastNewsDash input{
+  padding: 4px;
+
+}
+.LastNewsDash label{
+  font-size: 12px;
+}
+.LastNewsDash input::placeholder{
+  font-size: 10px;
+}
+.LastNewsDash textarea::placeholder{
+  font-size: 10px;
+}
+@media(max-width:800px){
+  .LastNewsDash .input{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .LastNewsDash .inp1{
+    width: 100%;
+  }
+}

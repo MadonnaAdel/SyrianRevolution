@@ -1,0 +1,50 @@
+.para-desc{
+    font-family: Cairo !important;
+    font-size: 16px !important;
+    font-weight: 400;
+    text-align: right;
+    line-height: 7px;
+    margin-bottom: 40px;
+}
+
+.policy{
+    position: relative;
+    overflow-x: hidden ;
+
+}
+
+.policy::after{
+
+    content: '';
+    position: absolute;
+    background-color: #000000  !important  ;
+    top:50%;
+    right: 40%;
+    height: 1.5px;
+    width: 63%;
+
+}
+.textm{
+    font-size:24px    ;
+}
+
+
+
+@media screen and  (max-width:600px) {
+    .textm{
+        font-size:15px;
+    }
+
+    .policy::after{
+
+        content: '';
+        position: absolute;
+        background-color: #000000  !important  ;
+        top:50%;
+        right: 70%;
+        height: 1.5px;
+        width: 63%;
+    
+    }
+    
+}

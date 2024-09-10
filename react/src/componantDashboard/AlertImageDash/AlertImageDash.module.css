@@ -1,0 +1,111 @@
+.RegisterUser{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color:#00011C80;
+    z-index: 5;
+}
+
+
+  .forms::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .forms::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .forms::-webkit-scrollbar-thumb {
+    background: #3035A1;
+  }
+
+.formsSuccessRegister{
+    width: 60%;
+    height: fit-content;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+ transform: translateY(20px);
+    padding-bottom: 60px;
+}
+.formsSuccessRegister1{
+    width: 40%;
+    height: fit-content;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+ transform: translateY(20px);
+    padding-bottom: 60px;
+}
+.formsSuccessRegister img{
+    width: 100%;
+    max-height: 70vh;
+}
+@media(max-width:1000px){
+    .formsSuccessRegister{
+        width: 70%;
+    }
+       .formsSuccessRegister1{
+        width: 70%;
+    }
+   
+}
+
+
+
+
+@media(max-width: 1150px){
+    .forms{
+        width: 95%;
+    }
+    .formsForget{
+        width: 65%;
+    }
+}
+
+.informSuccess{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+transform: translateY(25px);
+
+
+}
+
+
+
+.btnInpu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.btnInpu button{
+    width: fit-content;
+    font-size: 12px;
+    border: none;
+    width: 200px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #3035A1;
+    border-radius: 5px;
+}
+.btnInpu button:first-child{
+    border: none;
+    width: 150px;
+    padding: 4px 20px;
+    background-color: #3035A1;
+    color: white;
+}
+.btnInpu span{
+    text-decoration:underline;
+}
+
+
+
+

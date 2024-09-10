@@ -1,0 +1,88 @@
+.AddSuperVisor {
+  width: 100%;
+  height: 100%;
+}
+.head p {
+  background-color: #0d3a5a;
+  padding: 10px 20px 15px 0;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+}
+.headForm {
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.inp1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45%;
+}
+.input1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.input1 textarea{
+  width: 100%;
+  height: 100px;
+}
+.btnbottom {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px 0;
+}
+.customfileupload{
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  width: 100%;
+  font-size: 10px !important;
+  transform: translateY(-5px);
+}
+.form label{
+    font-size: 12px;
+}
+.form input::placeholder{
+    font-size: 10px;
+}
+.form select option{
+    font-size: 12px;
+}
+.form input,.form select{
+    padding: 3px;
+}
+  .form::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .form::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .form::-webkit-scrollbar-thumb {
+    background: #3035A1;
+  }
+  @media(max-width:800px){
+  .input{
+    flex-direction: column;
+    gap: 10px;
+ 
+  }
+     .inp1{
+      width: 100%;
+    }
+}

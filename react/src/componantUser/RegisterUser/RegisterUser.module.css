@@ -1,0 +1,266 @@
+.RegisterUser{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color:#00011C80;
+    z-index: 50;
+}
+.small{
+    font-size: 10px;
+}
+.forms{
+    width: 60%;
+    height: 77%;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: auto;
+
+}
+  .forms::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .forms::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .forms::-webkit-scrollbar-thumb {
+    background: #3035A1;
+  }
+.formsForget{
+    width: 45%;
+    height: 70%;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+    overflow: auto;
+    transform: translateY(20%);
+}
+.formsSuccessRegister{
+    width: 30%;
+    min-height: 45%;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+    transform: translateY(50%);
+    padding-bottom: 60px;
+}
+@media(max-width:1000px){
+    .formsSuccessRegister{
+        width: 70%;
+    }
+   
+}
+.formsLogin{
+    width: 45%;
+    height: 60%;
+    background-color: #F7F7F7;
+    margin: auto;
+    border-radius: 5px;
+    transform: translateY(20%);
+    overflow: auto;
+   position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .formsLogin{
+        height: 50%;
+    }
+}
+
+@media(max-width: 1150px){
+    .forms{
+        width: 95%;
+    }
+    .formsForget{
+        width: 65%;
+    }
+}
+.headForm{
+    position: relative;
+    width: 90%;
+    text-align: center;
+    transform: translateY(20px);
+    margin: auto;
+}
+.closeFont{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.inform{
+    transform: translateY(20px);
+    width: 90%;
+    margin: auto;
+}
+.inform1{
+        transform: translateY(40px);
+    width: 80%;
+    margin: auto;
+}
+.informSuccess{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+transform: translateY(25px);
+
+
+}
+.inform .input{
+    display: flex;
+    justify-content: space-between;
+}
+.inform .input .inpi{
+    width: 45%;
+}
+.inform .input .inpi label{
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+.inform .input input{
+    width: 100%;
+    padding: 2px !important;
+    margin-bottom: 2px;
+}
+.inpi2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.inpi2 input::placeholder{
+    font-size: 12px;
+}
+.inform input::placeholder{
+    font-size: 9px;
+}
+
+.inpi2 p{
+    font-size: 10px;
+    color: #3035A1;
+}
+.wateca{
+    display:flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.picture{
+    display:flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.wateca p:first-child,.pictureText p{
+    font-size:12px;
+    font-weight: 600;
+}
+.wateca p:first-child span{
+    color: #3035A1;
+    cursor: pointer;
+}
+.wateca p:nth-child(2){
+    color:red;
+    font-size:10px;
+    width: 95%;
+}
+.wateca p:last-child{
+    font-size:11px;
+}
+.wateca p:last-child span{
+    color:red
+}
+input[type="file"] {
+  display: none;
+}
+
+.customfileupload{
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 5px 25px;
+  cursor: pointer;
+  background-color: white;
+  width: 150px;
+  font-size: 10px;
+  transform: translateY(-5px);
+}
+.btnInpu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.btnInpu button{
+    width: fit-content;
+    font-size: 12px;
+    border: none;
+    width: 200px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #3035A1;
+    border-radius: 5px;
+}
+.btnInpu button:first-child{
+    border: none;
+    width: 150px;
+    padding: 4px 20px;
+    background-color: #3035A1;
+    color: white;
+}
+.btnInpu span{
+    text-decoration:underline;
+}
+.btnInpu1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btnInpu1 button{
+    border: none;
+    width: fit-content;
+    font-size: 14px;
+    padding: 4px 20px;
+    background-color: #3035A1;
+    border-radius: 5px;
+    color: white;
+}
+@media(max-width:780px){
+    .inform .input{
+        flex-direction: column;
+    }
+    .inform .input .inpi{
+    width: 100%;
+}
+.wateca,.picture{
+    flex-direction: column;
+    gap: 10px;
+}
+.wateca p:first-child,.wateca P:last-child,.wateca p:nth-child(2),.picture p{
+    font-size:10px;
+    font-weight: 500;
+    width: 90%;
+}
+.formsLogin{
+    width: 91%;
+}
+   .formsForget{
+        width: 95%;
+    }
+}
+
+
+.alert{
+    font-size: 10px;
+    font-weight: 50px;
+}
+.inform3{
+    transform: translateY(20px);
+    width: 60%;
+    margin: auto;
+}

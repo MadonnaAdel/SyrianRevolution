@@ -1,0 +1,19 @@
+.HomeDashboard {
+  display: flex;
+  background-color: #0d3a5a;
+  width: 100%;
+ min-height: 1200px;
+}
+.centerDash {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  width: 74%;
+  min-height: 95vh;
+  background-color: #f7f7f7;
+}
+@media (max-width: 990px) {
+  .centerDash {
+    width: 75%;
+  }
+}

@@ -1,0 +1,89 @@
+.AddSuperVisor{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.head p {
+  background-color: #0d3a5a;
+  padding: 10px 20px 15px 0;
+  color: white;
+  transform: translateY(20px);
+  font-size: 14px;
+}
+.headForm {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+.AddSuperVisor label{
+  font-size: 12px;
+}
+.AddSuperVisor input{
+  padding: 3px;
+}
+.AddSuperVisor input::placeholder{
+  font-size: 10px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+ 
+  gap: 10px;
+}
+
+.inp1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+   margin-bottom: 10px;
+  width: 45%;
+}
+.btnbottom{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 50px 0 10px 0;
+}
+@media(max-width:900px){
+  .input{
+    flex-direction: column;
+  }
+  .inp1{
+    width: 100%;
+  }
+}
+.singleUser{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.singleUser h6{
+  color: #157cc6;
+  display: inline-block;
+}
+.singleUser .headInform p{
+  display: inline-block;
+}
+.singleUser .bottomInform{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+@media(max-width:750px){
+  .singleUser .bottomInform{
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+.oneDiv{
+  width: 150px;
+  height: 100px;
+}
+.oneDiv img{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,15 @@
+.header::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    right: 190px !important;
+    left: 0;
+    height: 1px !important;
+    background-color: gray;
+}
+
+.detainees .nav-link {
+    background-color: rgba(255, 0, 0, 0.46);
+    font-size: .75rem;
+} 

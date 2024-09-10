@@ -1,0 +1,22 @@
+.filterAndDisplay {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.filter {
+  margin-top: 50px;
+}
+.filter span {
+  padding: 5px 0;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  background-color: #e2dede;
+  color: black;
+  margin-left: 1px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.filter .active {
+  background-color: #A5C3EB;
+}

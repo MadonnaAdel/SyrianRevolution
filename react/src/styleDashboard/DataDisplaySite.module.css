@@ -1,0 +1,79 @@
+.filterAndDisplay {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.filter {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.filter span {
+  padding: 5px 0;
+  text-align: center;
+  width: 100px;
+  display: inline-block;
+  background-color: #e2dede;
+  color: black;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.filter .active {
+  background-color:#A5C3EB;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.details h6 {
+  color: #3035a1;
+  font-size: 14px;
+}
+.details p,
+.detailsLeft {
+  font-size: 13px;
+}
+.detailsright h6,
+.detailsright p {
+  display: inline-block;
+}
+
+.allDetailseRight {
+  width: 45%;
+}
+.detailsLeft {
+  width: 45%;
+}
+.btnbottom {
+  display: flex;
+  gap: 20px;
+
+justify-content: center;
+margin: 30px 0;
+}
+@media (max-width: 900px) {
+  .details {
+    flex-direction: column;
+  }
+  .allDetailseRight,
+  .detailsLeft {
+    width: 90%;
+  }
+}
+/* /////////////////// */
+ /* ///////////search///////////// */
+ .inputSearchDashboard{
+  width: 50% !important;
+ }
+ @media(max-width:700px){
+  .inputSearchDashboard{
+    width: 100% !important;
+  }
+ }
